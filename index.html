@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio2</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+   <section class="banner" id="ray">
+<header>
+    <a href="#" class="logo" >Logo</a>
+    <div id="toggle" onclick="toggle()"></div>
+</header>
+<div class="content">
+    <h2>Hello World, <br>I am <span>Ronald Kiprotich</span></h2>
+    <p>I am a very passionate tech-nerd with ability to solve complex technological problems with minimal guidance using logical and critical reasoning and a strong attention to important matters.</p>
+    <a href="#">Know More</a>
+</div>
+<ul class="kip">
+<li><a href="#"><img src="images/facebook.png"></a></li>
+<li><a href="#"><img src="images/twitter.png"></a></li>
+<li><a href="#"><img src="images/linkedin.png"></a></li>
+</ul>
+   </section>
+   <div id="nav">
+<ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contacts</a></li>
+</ul>
+   </div>
+   <script type="text/javascript">
+function toggle(){
+    var ray = document.getElementById('ray');
+    ray.classList.toggle('active')
+}
+   </script>
+</body>
+</html>
