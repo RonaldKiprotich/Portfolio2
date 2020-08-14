@@ -48,11 +48,11 @@ header #toggle:after{
     background:brown;
 }
 .banner{
+    position: relative;
     width: 100%;
     padding: 100px;
-    position: relative;
     min-height: 100vh;
-    background-image:url(pic1.jpg);
+    background:url("pic1.jpg");
     background-size: cover;
     display:flex;
     align-items: center;
@@ -70,12 +70,12 @@ header #toggle:after{
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 .banner.active{
-    transform:translateX(-400PX);
+    transform:translateX(-400px);
 }
 #nav{
     position: fixed;
     top:0;
-    right:0;
+    right:-200px;
     width:400px;
     height:100vh;
     background: chocolate;
@@ -83,4 +83,15 @@ header #toggle:after{
     display:grid;
     place-items:center;
     transition:0.5s;
+}
+#nav.active{
+    right:0;
+}
+#nav ul{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+}
+#nav ul li{
+    list-style: none;
 }
