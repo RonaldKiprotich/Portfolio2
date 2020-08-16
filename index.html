@@ -6,32 +6,56 @@
     <title>Portfolio2</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="style" type="text/css" href="about.html">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
    <section class="banner" id="ray">
 <header>
+  <img src="images/logo.png" width="180px" height="150px">
     <a href="#" class="logo" >Logo</a>
+    <img class="pic" src="images/pic1.jpg" width="250px" height="250px">
     <div id="toggle" onclick="toggle()"></div>
+   
 </header>
 <div class="content">
     <h2>Hello World, <br>I am <span>Ronald Kiprotich</span></h2>
     <p>I am a very passionate tech-nerd with ability to solve complex technological problems with minimal guidance using logical and critical reasoning and a strong attention to important matters.</p>
-    <a href="#">Know More</a>
+    <a href="about.html">Know More</a>
 </div>
 <ul class="kip">
-<li><a href="#"><img src="images/facebook.png"></a></li>
-<li><a href="#"><img src="images/twitter.png"></a></li>
-<li><a href="#"><img src="images/linkedin.png"></a></li>
+<li><a href="https://www.facebook.com/protich.rooney"><img src="images/facebook.png"></a></li>
+<li><a href="https://twitter.com/Simply_Kenyan?s=09"><img src="images/twitter.png"></a></li>
+<li><a href="https://www.linkedin.com/in/ray-kiprotich-963238152"><img src="images/linkedin.png"></a></li>
 </ul>
    </section>
    <div id="nav">
 <ul>
     <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About</a></li>
-    <li><a href="#">Services</a></li>
-    <li><a href="#">Contacts</a></li>
+    <li><a href="services.html">Services</a></li>
 </ul>
    </div>
+   <footer>
+    <div class="contacts">
+      <p>You can find me through:</p>
+      <li>Phone:0720313660</li>
+      <li>E-mail:protich12@gmail.com</li>
+      <li>Mail:P.O.Box 768, Litein.</li>
+    </div>
+    <div class="handles">
+      <h2>My social profiles</h2>
+      <p>I’m a social media enthusiast and you can always find me on;</p>
+        <p><em><a href="https://twitter.com/Simply_Kenyan?s=09" target="_blank" class="fa fa-twitter"></a>Twitter
+        <a href="https://www.instagram.com/raykip254" target="_blank" class="fa fa-instagram"></a>Instagram
+        <a href="https://www.linkedin.com/in/ray-kiprotich-963238152" target="_blank" class="fa fa-linkedin"></a>linkedin
+        <a href="https://www.facebook.com/protich.rooney" target="_blank" class="fa fa-facebook"></a>Facebook</em></p>
+        
+    </div>
+    <div class="footer-bottom">
+     <p id="copyright">&copy;Ronald Kiprotich, 2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>|Portfolio</p>
+            </div>
+          </div>
+            </footer>
    <script type="text/javascript">
 function toggle(){
     var ray = document.getElementById('ray');
