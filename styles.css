@@ -162,7 +162,8 @@ content a{
 
 }
 .pic{
-    border-radius: 50px;
+    border-radius: 150px;
+    top: 10px;
 }
 /* .handles{
     text-align: center;
@@ -179,4 +180,18 @@ footer{
     text-align: left;
     position: absolute;
     margin-bottom: auto;
+  }
+  button{
+      background-color: black;
+      color:#fff;
+  }
+  form{
+      position: absolute;
+      text-align: left;
+      bottom:30px;
+      color: brown;
+  }
+  form label{
+      max-width: 60px;
+      max-height: 50px;
   }
