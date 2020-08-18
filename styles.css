@@ -182,7 +182,7 @@ footer{
     margin-bottom: auto;
   }
   button{
-      background-color: black;
+      background-color: rgb(15, 5, 75);
       color:#fff;
   }
   form{
@@ -207,4 +207,7 @@ footer{
   .port{
       position: absolute;
       top:100px;
+  }
+  .others{
+      position: relative;
   }
